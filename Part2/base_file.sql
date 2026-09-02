@@ -23,6 +23,5 @@ INSERT INTO products (name, category, price, stock, is_active, sku, description)
   ('Gel Pen', 'stationery', 25.00, 500, TRUE, 'STAT-PEN-001', NULL),
   ('Old Monitor', 'electronics', 4999.00, 0, FALSE, 'ELEC-MON-OLD', 'Inactive old stock item');
 
-
-
 SELECT * FROM products;
+SELECT name as productName, price as currentPrice from products;
